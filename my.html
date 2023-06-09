@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Mondrian</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      .grid-container {
+        display: grid;
+        width: 612px;
+        height: 622px;
+        background-color: #000;
+        gap: 11px;
+        grid-template-columns: 49px 68px 68px 151px 90px 90px 30px;
+        grid-template-rows: 53px 151px 151px 72px 72px 38px 19px;
+      }
+      .gray-1 {
+        grid-area: 1 / 1 / 2 / 3;
+      }
+      .white-1 {
+        grid-area: 1 / 3 / 2 / 5;
+      }
+      .yellow-1 {
+        grid-area: 1 / 5 / 2 / 7;
+      }
+      .gray-2 {
+        grid-area: 1 / 7 / 5 / 8;
+      }
+      .white-2 {
+        grid-area: 2 / 1 / 3 / 2;
+      }
+      .red-big {
+        grid-area: 2 / 2 / 4 / 5;
+      }
+
+      .yellow-2 {
+        grid-area: 2 / 5 / 3 / 7;
+      }
+      .gray-3 {
+        grid-area: 3 / 1 / 5 / 2;
+      }
+      .white-3 {
+        grid-area: 3 / 5 / 4 / 6;
+      }
+      .white-4 {
+        grid-area: 3 / 6 / 4 / 7;
+      }
+      .black-1 {
+        grid-area: 4 / 2 / 5 / 4;
+      }
+      .gray-4 {
+        grid-area: 4 / 4 / 5 / 5;
+      }
+      .white-5 {
+        grid-area: 4 / 5 / 5 / 7;
+      }
+      .yellow-3 {
+        grid-area: 5 / 1 / 8 / 2;
+      }
+      .black-2 {
+        grid-area: 5 / 2 / 6 / 4;
+      }
+      .gray-5 {
+        grid-area: 5 / 4 / 6 / 5;
+      }
+      .blue {
+        background-color: #2e619c;
+        grid-area: 5 / 5 / 7 / 7;
+      }
+      .red-small {
+        grid-area: 5 / 7 / 8 / 8;
+      }
+      .white-6 {
+        grid-area: 6 / 2 / 8 / 4;
+      }
+      .black-3 {
+        grid-area: 6 / 4 / 7 / 5;
+      }
+      .white-7 {
+        grid-area: 7 / 4 / 8 / 7;
+      }
+
+      .gray {
+        background-color: #f0f6ff;
+      }
+      .white {
+        background-color: #f0f1ec;
+      }
+      .yellow {
+        background-color: #ecd361;
+      }
+      .red {
+        background-color: #ee433a;
+      }
+      .black {
+        background-color: #191b1d;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+      .w-6 {
+        color: black;
+        height: 2rem;
+      }
+
+      /* 
+red: #E72F24;
+white: #F0F1EC;
+blue: #004592;
+border-top: 10px solid #000;
+black: #232629;
+yellow: #F9D01E;
+gray: #cdd8e7
+*/
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="./index.html"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+      </a>
+      <div class="grid-container">
+        <div class="gray gray-1"></div>
+        <div class="white white-1"></div>
+        <div class="yellow yellow-1"></div>
+        <div class="gray gray-2"></div>
+        <div class="white white-2"></div>
+        <div class="red red-big"></div>
+        <div class="yellow yellow-2"></div>
+        <div class="gray gray-3"></div>
+        <div class="white white-3"></div>
+        <div class="white white-4"></div>
+        <div class="black black-1"></div>
+        <div class="gray gray-4"></div>
+        <div class="white white-5"></div>
+        <div class="yellow yellow-3"></div>
+        <div class="black black-2"></div>
+        <div class="gray gray-5"></div>
+        <div class="blue"></div>
+        <div class="red red-small"></div>
+        <div class="white white-6"></div>
+        <div class="black black-3"></div>
+        <div class="white white-7"></div>
+      </div>
+    </div>
+  </body>
+</html>
 
